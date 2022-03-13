@@ -36,4 +36,4 @@ This is my solution to <strong>REST countries API with theme switcher </strong> 
 <img src="design/mobile-design-home-light.jpg">
 </p>
 
-<h3>Demo video</h3>
+<!-- <h3>Demo video</h3> -->
