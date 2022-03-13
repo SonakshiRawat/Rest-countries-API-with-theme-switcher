@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rest Country API</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="head">
+      <div class="ques">Where in the world?</div>
+      <div class="modeDark mode">
+        <span class="material-icons">dark_mode</span>
+        <div class="dark">Dark Mode</div>
+      </div>
+      <div class="modeLight mode hidden">
+        <span class="material-icons"> light_mode </span>
+        <div class="dark">Light Mode</div>
+      </div>
+    </div>
+ 
+    <div class="container">
+      <div class="section1">
+        <div class="bar">
+          <span class="material-icons icon">search</span>
+          <input
+            type="text"
+            placeholder="Search for a country..."
+            class="search"
+          />
+        </div>
+        <select name="dropdown">
+          <option value="Filter by Region" disabled selected hidden>
+            Filter by Region
+          </option>
+          <option value="Asia" class="val">Asia</option>
+          <option value="Americas" class="val">Americas</option>
+          <option value="Europe" class="val">Europe</option>
+          <option value="Oceania" class="val">Oceania</option>
+          <option value="Africa" class="val">Africa</option>
+        </select>
+      </div>
+      <div class="section2">
+        <!-- <div class="country">
+      <img src="flag.png" class="flag">
+        <div class="info">
+            <div class="name">India</div>
+            <div class="details">
+                <div class="nation">Population: <span class="pop col">81,770,900</span></div>
+                <div class="nation">Region: <span class="region col">Asia</span></div>
+                <div class="nation">Capital: <span class="cap col">Delhi</span></div>
+            </div>
+        </div>
+    </div> -->
+
+    
+       <!-- <div class="newCountry">
+<div class="btn_back">
+    <span class="material-icons arrow">arrow_back</span>
+    <button class="back">Back</button>
+</div>
+<div class="view">
+    <img src="flag.png" class="flag_sep">
+    <div class="entry">
+        <div class="name">India</div>
+        <div class="split">
+            <div class="point1">
+                <div class="nation1">Native Name: <span class="col">Bharat</span></div>
+                <div class="nation1">Population: <span class="col">Bharat</span></div>
+                <div class="nation1">Region: <span class="col">Bharat</span></div>
+                <div class="nation1">Sub Region: <span class="col">Bharat</span></div>
+                <div class="nation1">Capital: <span class="col">Bharat</span></div>
+
+            </div>
+            <div class="point">
+                <div class="nation1">Top Level Domain: <span class="col">Bharat</span></div>
+                <div class="nation1">Currencies: <span class="col">Bharat</span></div>
+                <div class="nation1">Languages: <span class="col">Bharat</span></div>
+
+            </div>
+        </div>
+        <div class="border">
+            <div class="nation1_border">Border Countries:</div> 
+    <button class="adj">Netherlands</button>
+    <button class="adj">France</button>
+    <button class="adj">Germany</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div> -->
+      </div>
+      <div class="loader hidden"></div>
+    </div>
+    <script src="script.js"></script>
+    
+
+  </body>
+</html>
