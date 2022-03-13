@@ -4,7 +4,7 @@ This is my solution to <strong>REST countries API with theme switcher </strong> 
 <hr>
 
 <h3>Live Link</h3>
-<a href="">Click here</a>
+<a href="https://sonakshirawat.github.io/Rest-countries-API-with-theme-switcher/">Click here</a>
 <hr>
 <h3>Features</h3>
 <ul>
